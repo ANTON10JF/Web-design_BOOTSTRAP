@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Maquetación bootstrap</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="cabecera row justify-content-end" id="inicio">
+            <div class="col-5 mt-2">
+            <h1>Large</h1>
+            </div>
+            <div class="col-2 mt-3">
+            <button type="button" class="btn btn-outline-secondary text-nowrap">Sign up</button>
+            </div>
+        </div>
+        <hr>
+        <nav class="navbar navbar-light row">
+            <div class="col-12 text-center">
+              <a class="navbar-brand text-secondary" href="#">World</a>
+              <a class="navbar-brand text-secondary" href="#">Technology</a>
+              <a class="navbar-brand text-secondary" href="#">Desing</a>
+              <a class="navbar-brand text-secondary" href="#">Opinion</a>
+              <a class="navbar-brand text-secondary" href="#">Science</a>
+              <a class="navbar-brand text-secondary" href="#">Style</a>
+              <a class="navbar-brand text-secondary" href="#">Travel</a>
+            </div>
+        </nav>
+        <div class="imagen-principal row">
+            <div class="imagen-central col mb-4 text-center">
+                <img src="https:www.picsum.photos/id/26/1500/300/" class="rounded img-fluid d-block mx-auto" alt="objetos personales">
+            </div>
+                <div class="texto-imagen-principal position-absolute d-flex justify-content-center align-item-center overflow-hidden row">
+                    <h2 class="text-white p-2 col-12">Title of a longer featured blog post</h2>
+                    <p class="text-white p-2 col-12">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.
+                    <br>
+                    Continue reading...</p>
+                </div>
+        </div>
+        <main class="container-contenido">
+            <div class="post row">
+                <div class="post-position-izquierda col-12 col-md-6">
+                    <section class="card shadow p-3 mb-5 bg-body rounded">
+                        <h3 class="text-primary">World</h3>
+                        <h4>Featured post</h4>
+                        <time>Nov 12</time>
+                        <p>This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <detais class="text-primary"><sumary>Continue reading</sumary></details>
+                    </section>
+
+                </div>
+                <div class="post-position-derecha col-12 col-md-6">
+                    <section class="card shadow p-3 mb-5 bg-body rounded">
+                        <h3 class="text-success">Desing</h3>
+                        <h4>Post title</h4>
+                        <time>Nov 11</time>
+                        <p>This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                        <detais class="text-primary"><sumary>Continue reading</sumary></details>
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="izquierda col-12 col-md-8">
+
+                    <section class="card shadow p-3 mb-5 bg-body rounded">
+                        <h3>From the Firehose</h3>
+                        <hr>
+                        <h4>Sample blog post</h4>
+                        <detais><time>January 1, 2014 by </time><a href="#">Mark</a></detais>
+                        <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.
+
+                        </p>
+                        <hr>
+                        <p>Cum sociis natoque penatibus et magnis <ins class="text-primary">dis parturient montes</ins>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+                        </p>
+                        <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                        </p>
+                        <p>
+                            Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+                        </p>
+                        <h5>Heading</h5>
+                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+
+                        </p>
+                        <h6>Sub-heading</h6>
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        <pre><code>&lt;a&gt;class="Indicamos la clase" href="enlace"&lt;/a&gt;
+                            &lt;button&gt;type="button" class="btn btn-light">un botón en bootstrap&lt;/button&gt;
+                            </code></pre>
+                        <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+
+                        </p>
+                        <h6>Sub-heading</h6>
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+
+                        </p>
+                        <ul>
+                            <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+                            <li>Donec id elit non mi porta gravida at eget metus.</li>
+                            <li>Nulla vitae elit libero, a pharetra augue.</li>
+                        </ul>
+                        <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+                        <ol>
+                            <li>Vestibulum id ligula porta felis euismod semper.</li>
+                            <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+                            <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+            
+                        </ol>
+                        <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+                        <div class="botones-articulo">
+                            <button type="button" class="btn btn-outline-primary rounded-pill">Older</button>
+                            <button type="button" class="btn btn-outline-secondary rounded-pill">Newer</button>
+                        </div>
+
+
+                    </section>
+                </div>
+                <div class="derecha col-12 col-md-4">
+                    <aside>
+                        <div class="acerca bg-light p-4">
+                            <h2>About</h2>
+                            <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+
+                           </p>
+                        </div>
+                        <div class="archivos bg-transparent p-4">
+                            <h2>Archives</h2>
+                            <nav class="enlaces-archivos row">
+                                <a class="bg-transparent text-decoration-none" href="#">March 2014</a>
+                                <a class="bg-transparent text-decoration-none" href="#">February 2014</a>
+                                <a class="bg-transparent text-decoration-none" href="#">January 2014</a>
+                                <a class="bg-transparent text-decoration-none" href="#">December 2013</a>
+                                
+                            </nav>
+                        </div>
+                        <div class="redes-sociales bg-transparent p-4">
+                            <h2>Social</h2>
+                            <a href="#"><i class="text-primary bi bi-github fs-4"></i></a>
+                            <a href="#"><i class="text-primary bi bi-twitter fs-4"></i></a>
+                            <a href="#"><i class="text-primary bi bi-facebook fs-4"></i></a>
+                        </div>
+
+                    </aside>
+                </div>
+
+            </div>
+
+        </main>
+        
+    </div>
+    <footer class="row bg-light container-fluid">
+        <div class="contenido-footer text-center">
+        <p>Ejemplo de blog construido con Bootstrap 5</p>
+        <a href="#inicio">Back to top</a>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
